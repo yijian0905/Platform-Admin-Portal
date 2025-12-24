@@ -428,7 +428,7 @@ export interface DashboardStats {
 }
 
 export async function getDashboardStats(): Promise<ApiResponse<DashboardStats>> {
-    return apiRequest('/api/v1/admin/dashboard/stats');
+    return apiRequest('/api/v1/admin/subscribers/dashboard/stats');
 }
 
 // ============================================================================
